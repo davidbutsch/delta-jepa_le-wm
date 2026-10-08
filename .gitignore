@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data, checkpoints, and run outputs
+datasets/
+checkpoints/
+outputs/
+multirun/
+wandb/
+lightning_logs/
+*.h5
+*.hdf5
+*.lance/
+*.ckpt
+*.pt
+*.pth
+*.tar.zst
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
