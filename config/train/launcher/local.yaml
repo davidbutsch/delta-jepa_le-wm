@@ -5,10 +5,10 @@ defaults:
   - override /hydra/launcher: basic
 
 wandb:
-  enabled: False
+  enabled: True
   config:
-    entity: lewm
-    project: lewm
+    entity: dcbutsch-texas-a-m-university
+    project: delta-jepa_lewm
     name: ${output_model_name}
     id: ${subdir}
     resume: allow
