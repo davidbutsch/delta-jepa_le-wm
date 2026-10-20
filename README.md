@@ -44,12 +44,12 @@ Datasets use the HDF5 format for fast loading. Download the data from [HuggingFa
 tar --zstd -xvf archive.tar.zst
 ```
 
-Place the extracted `.h5` files under `$STABLEWM_HOME` (defaults to `~/.stable-wm/`). You can override this path:
+Place the extracted `.h5` files under `$STABLEWM_HOME/datasets/` (`$STABLEWM_HOME` defaults to `~/.stable_worldmodel/`). You can override this path:
 ```bash
 export STABLEWM_HOME=/path/to/your/storage
 ```
 
-Dataset names are specified without the `.h5` extension. For example, `config/train/data/pusht.yaml` references `pusht_expert_train`, which resolves to `$STABLEWM_HOME/pusht_expert_train.h5`.
+Dataset names are specified without the `.h5` extension. For example, `config/train/data/pusht.yaml` references `pusht_expert_train`, which resolves to `$STABLEWM_HOME/datasets/pusht_expert_train.h5`.
 
 ## Training
 
