@@ -9,6 +9,7 @@ dist/
 .venv/
 venv/
 .env
+env.sh
 
 # Data, checkpoints, and run outputs
 datasets/
@@ -29,3 +30,9 @@ lightning_logs/
 .vscode/
 .idea/
 .DS_Store
+
+# Editor
+.vscode/
+
+# Evaluation
+eval_logs/
